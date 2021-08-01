@@ -1,6 +1,10 @@
 <template>
   <div id="app">
     <Header />
+    <div class="button-container">
+      <Button button-title="Conheça os personagens" />
+      <Button button-title="Quiz: Quem você seria?" />
+    </div>
     <router-view />
   </div>
 </template>
@@ -8,11 +12,13 @@
 <script>
 /* eslint-disable */
 import Header from "./components/molecules/Header";
+import Button from "./components/atoms/Button";
 
 export default {
   name: "App",
   components: {
-    Header
+    Header,
+    Button
   }
 };
 </script>
@@ -24,5 +30,10 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
 }
 </style>
