@@ -23,17 +23,4 @@ export default {
 };
 </script>
 
-<style>
-body {
-  background: url("/../static/background.png");
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-}
-
-.button-container {
-  display: flex;
-  justify-content: center;
-}
-</style>
+<style src="./app.css"></style>

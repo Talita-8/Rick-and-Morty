@@ -1,0 +1,67 @@
+body {
+  background: url("/../static/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 965px) {
+  body {
+    background-size: auto;
+    background-position-x: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    margin-left: 3rem;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  body {
+    margin-left: 7rem;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .button-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  body {
+    margin-left: 9rem;
+  }
+  .button-container {
+    flex-direction: column;
+  }
+}
