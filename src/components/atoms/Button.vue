@@ -1,12 +1,12 @@
 <template>
-  <button>{{ buttonTitle }}</button>
+  <button @click="$router.push(pageName)">{{ buttonTitle }}</button>
 </template>
 
 <script>
 /* eslint-disable */
 export default {
   name: "Button",
-  props: ["buttonTitle"]
+  props: ["buttonTitle", "pageName"]
 };
 </script>
 

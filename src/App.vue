@@ -2,8 +2,8 @@
   <div id="app">
     <Header />
     <div class="button-container">
-      <Button button-title="Conheça os personagens" />
-      <Button button-title="Quiz: Quem você seria?" />
+      <Button button-title="Conheça os personagens" page-name="/characters" />
+      <Button button-title="Quiz: Quem você seria?" page-name="/quiz" />
     </div>
     <router-view />
   </div>
