@@ -12,7 +12,7 @@ export default {
 
 <style>
 button {
-  background-color: rgba(55, 21, 117, 0.384);
+  background-color: rgba(55, 21, 117, 0.432);
   border: none;
   color: rgb(31, 253, 61);
   margin: 2rem;
