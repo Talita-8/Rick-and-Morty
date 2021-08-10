@@ -1,19 +1,21 @@
 <template>
   <div>
     <Load />
-    <!-- {{ info }} -->
+    <!-- <Card :info="info" /> -->
   </div>
 </template>
 
 <script>
 /* eslint-disable */
 import Load from "../atoms/Load";
+import Card from "../atoms/Card";
 import axios from "axios";
 
 export default {
   name: "Characters",
   components: {
-    Load
+    Load,
+    Card
   },
   data() {
     return {
@@ -26,7 +28,6 @@ export default {
       .get("http://127.0.0.1:8000/api/characters")
       .then(function(response) {
         character.info = response.data
-        console.log(hei, "info do theen")
       })
       .catch(function(err) {
         console.log(err)
