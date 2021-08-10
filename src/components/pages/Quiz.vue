@@ -2,17 +2,17 @@
   <div>
     <Load />
     <p style="color:rgb(0, 238, 255); text-align: center;">
-      Página em construção
+      Quiz em construção
     </p>
   </div>
 </template>
 
 <script>
 /* eslint-disable */
-import Load from "./atoms/Load";
+import Load from "../atoms/Load";
 
 export default {
-  name: "Characters",
+  name: "Quiz",
   components: {
     Load
   }
