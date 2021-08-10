@@ -1,8 +1,8 @@
 /* eslint-disable */
 import Vue from "vue";
 import Router from "vue-router";
-import Characters from "@/components/Characters";
-import Quiz from "@/components/Quiz";
+import Characters from "@/components/pages/Characters";
+import Quiz from "@/components/pages/Quiz";
 
 Vue.use(Router);
 
